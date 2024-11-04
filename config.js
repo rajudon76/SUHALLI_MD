@@ -25,7 +25,7 @@ global.caption = process.env.CAPTION || global.caption || "©by ᴏɴʟʏ_ᴏɴ�
 
 
 global.devs = "923071782626" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "923071782626";
 global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "923071782626";
 
 
@@ -74,10 +74,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.0.1-developement-x",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ ©ᴏɴʟʏ_ᴏɴᴇ_🥇ᴇᴍᴘɪʀᴇ 』```", //*『sᴜʙsᴄʀɪʙᴇ • SUHALLI_MD』*\n youtube.com/only_one_empire"),
  
-  author : process.env.PACK_AUTHER|| "ᴏɴʟʏ_ᴏɴᴇ_🥇ᴇᴍᴘɪʀᴇ",
+  author : process.env.PACK_AUTHER|| "Raju_🥇Boss",
   packname: process.env.PACK_NAME || "Raju Boss",
   botname : process.env.BOT_NAME  || "SUHALLI_MD",
-  ownername:process.env.OWNER_NAME|| "ᴏɴʟʏ_ᴏɴᴇ_🥇ᴇᴍᴘɪʀᴇ",
+  ownername:process.env.OWNER_NAME|| "Raju Boss",
 
 
   errorChat : process.env.ERROR_CHAT || "",
